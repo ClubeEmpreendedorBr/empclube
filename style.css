@@ -1,0 +1,36 @@
+body {
+   margin:0;
+}
+
+header div{
+	width:70%;
+	
+}
+
+header h1{
+    float:left;
+    width:100%;
+    color:#87CEEB;
+    font-family: arial;
+    font-size:16px;
+    text-align:center;
+    margin:20px 0px;
+}
+
+header p{
+    float:left;
+	width:100%;
+    color:#000000;
+    font-family: arial;
+    font-size:14px;
+    text-align:justify;
+
+}
+
+article {
+
+}
+
+footer p{
+ font-style: italic;
+}
