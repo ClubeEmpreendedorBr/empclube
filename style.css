@@ -2,13 +2,9 @@ body {
    margin:0;
 }
 
-header div{
-	width:70%;
-	
-}
+
 
 header h1{
-    float:left;
     width:100%;
     color:#87CEEB;
     font-family: arial;
@@ -17,8 +13,36 @@ header h1{
     margin:20px 0px;
 }
 
+#banner1{
+    background: url(imagens/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align:center;
+}
+#oclube{
+    width:70%
+}
+#imagenslogo{
+	width:100%;
+}
+
+
+#logo img{
+	width:70%;
+	margin-top:15%;
+	margin-bottom:2%;
+}
+
+#imagensbanner img{
+	width:45%;
+	margin-top:2%;
+	margin-bottom:15%;
+}
+
+#imagensdesc div img {
+width:15%;}
+
 header p{
-    float:left;
 	width:100%;
     color:#000000;
     font-family: arial;
