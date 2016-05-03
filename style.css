@@ -1,16 +1,28 @@
+
+/* Tamanho Padrão*/
+
 body {
    margin:0;
 }
+figure{
+margin:0;
+}
 
-
-
-header h1{
+#clubesection h1{
     width:100%;
     color:#87CEEB;
     font-family: arial;
     font-size:16px;
     text-align:center;
     margin:20px 0px;
+}
+
+#clubesection p{
+	width:100%;
+    color:#000000;
+    font-family: arial;
+    font-size:14px;
+    text-align:justify;
 }
 
 #banner1{
@@ -26,7 +38,6 @@ header h1{
 	width:100%;
 }
 
-
 #logo img{
 	width:70%;
 	margin-top:15%;
@@ -39,20 +50,52 @@ header h1{
 	margin-bottom:15%;
 }
 
-#imagensdesc div img {
-width:15%;}
+#imagensdesc{
+margin-bottom:5%;
+width:100%;
+}
+#organizador{
+}
 
-header p{
-	width:100%;
-    color:#000000;
-    font-family: arial;
-    font-size:14px;
-    text-align:justify;
+#imagensdesc div div{
+display:inline-block;
+width:15%;
+margin:2%;
 
 }
 
-article {
+#imagensdesc div div figure img {
+width:100%
+}
 
+#banner2{
+    background: url(imagens/visao.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align:center;
+	float:left;
+	width:100%;
+}
+
+#esquerda{
+float:left;
+width:30%;
+font-size:17px;
+color:#ffffff;
+margin-left:10%;
+}
+
+#visao{
+margin-top:18%;
+}
+
+#missao{
+margin-top:15%;
+}
+
+#valores{
+margin-top:15%;
+margin-bottom:18%;
 }
 
 footer p{
