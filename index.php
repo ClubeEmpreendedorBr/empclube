@@ -41,6 +41,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
  <meta name="description" content="Existe um meio de formar empreendedores? Existe um meio de ensinar as pessoas a desenvolver a ideia de arriscar mais pelos seus sonhos?">
  <meta charset="utf-8">
  <link rel="stylesheet" type="text/css" href="style.css"/>
+     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
  <script type="text/javascript">
  </script>
 </head>
@@ -119,8 +120,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 </section>
 <div class="jumbotron">
-        <h1>Simple PHP Contact Form</h1>
-        <p>A Simple Contact Form developed in PHP with HTML5 Form validation. Has a fallback in jQuery for browsers that do not support HTML5 form validation.</p>
     </div>
     <?php if(!empty($emailSent)): ?>
         <div class="col-md-6 col-md-offset-3">
@@ -135,13 +134,20 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <div class="col-md-6 col-md-offset-3">
         <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="contact-form" class="form-horizontal" role="form" method="post">
-            <div class="form-group">
+            </br>
+            </br>
+			<center><strong>Cadastre-se que logo entraremos em contato.</strong>
+			</center>
+			</br>
+			</br>
+			<div class="form-group">
                 <label for="name" class="col-lg-2 control-label">Nome</label>
                 <div class="col-lg-10">
                     <input type="text" class="form-control" id="form-name" name="form-name" placeholder="Nome" required>
                 </div>
             </div>
             <div class="form-group">
+
                 <label for="email" class="col-lg-2 control-label">Email</label>
                 <div class="col-lg-10">
                     <input type="email" class="form-control" id="form-email" name="form-email" placeholder="Email" required>
@@ -185,7 +191,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
   <footer>
-   <p>Todos os direitos reservados.</p>
+  <p></p>
   </footer>
  
  </body>
