@@ -9,20 +9,21 @@ margin:0;
 }
 
 #clubesection h1{
-    width:100%;
-    color:#87CEEB;
+     width: 100%;
+    color: #87CEEB;
     font-family: arial;
-    font-size:16px;
-    text-align:center;
-    margin:20px 0px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 3%;
 }
 
 #clubesection p{
-	width:100%;
-    color:#000000;
-    font-family: arial;
-    font-size:14px;
-    text-align:justify;
+	width: 100%;
+    color: #60656a;
+    font-family: times;
+    font-size: 16px;
+    text-align: justify;
 }
 
 #banner1{
@@ -55,6 +56,8 @@ margin-bottom:5%;
 width:100%;
 }
 #organizador{
+	margin-top: 8%;
+	color: #60656a;
 }
 
 #imagensdesc div div{
@@ -65,7 +68,8 @@ margin:2%;
 }
 
 #imagensdesc div div figure img {
-width:100%
+width:100%;
+margin-bottom:9%;
 }
 
 #banner2{
@@ -73,12 +77,13 @@ width:100%
     background-attachment: fixed;
     background-size: cover;
     text-align:center;
-	float:left;
 	width:100%;
+	padding-top: 1%;
+    padding-bottom: 1%;
+	margin-top: 9%;
 }
 
 #esquerda{
-float:left;
 width:30%;
 font-size:17px;
 color:#ffffff;
@@ -98,6 +103,26 @@ margin-top:15%;
 margin-bottom:18%;
 }
 
-footer p{
- font-style: italic;
+#juntese{
+	margin-top: 6%;
+    color: #87CEEB;
+}
+
+footer {
+ background-color:#eeeeee;
+ padding-bottom:6%;
+}
+
+#redessociais{
+
+}
+
+#redessociais div {
+    display: inline-block;
+    width: 4%;
+    margin-top: 1%;
+}
+
+#redessociais div img {
+	width: 100%;
 }
